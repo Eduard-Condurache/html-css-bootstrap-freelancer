@@ -1,3 +1,9 @@
+/* GENERAL */
+
+img {
+    max-width: 100%;
+}
+
 /* HEADER */
 
 .header-top {
@@ -31,13 +37,3 @@
 /* RESPONSIVE */
 
 /* tablet */
-
-@media (min-width: 768px) {
-    header ul li a {
-        display: block;
-    }
-
-    header button {
-        display: none;
-    }
-}
