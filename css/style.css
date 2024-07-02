@@ -8,16 +8,6 @@ section {
     margin-bottom: 20px;
 }
 
-/* HEADER */
-
-.header-top {
-    background-color: #2C3E50;
-}
-
-.header-bottom {
-    background-color: #1ABC9C;
-}
-
 .custom-divider {
     display: flex;
     align-items: center;
@@ -36,6 +26,16 @@ section {
     color: white;
 }
 
+/* HEADER */
+
+.header-top {
+    background-color: #2C3E50;
+}
+
+.header-bottom {
+    background-color: #1ABC9C;
+}
+
 /* MAIN */
 
 .about-me {
@@ -45,3 +45,14 @@ section {
 .custom-placeholder::placeholder {
     color: #2C3E50;
   }
+
+  /* FOOTER */
+
+.footer-top {
+    background-color:#3A546D;
+}
+
+.footer-bottom {
+    background-color:#2C3E50;
+}
+
