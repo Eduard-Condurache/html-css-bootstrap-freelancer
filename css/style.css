@@ -1,14 +1,43 @@
-    /* RESET */
+/* HEADER */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.header-top {
+    background-color: #2C3E50;
 }
 
-    /* GENERAL */
+.header-bottom {
+    background-color: #1ABC9C;
+}
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-}  
+.custom-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.line {
+    width: 10%;
+    height: 3px;
+    background-color: white;
+    margin: 0 10px;
+}
+.star-icon {
+    font-size: 42px;
+    color: white;
+}
+
+/* MAIN */
+
+
+/* RESPONSIVE */
+
+/* tablet */
+
+@media (min-width: 768px) {
+    header ul li a {
+        display: block;
+    }
+
+    header button {
+        display: none;
+    }
+}
