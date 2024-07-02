@@ -4,6 +4,10 @@ img {
     max-width: 100%;
 }
 
+section {
+    margin-bottom: 20px;
+}
+
 /* HEADER */
 
 .header-top {
@@ -20,6 +24,7 @@ img {
     justify-content: center;
     padding: 10px;
 }
+
 .line {
     width: 10%;
     height: 3px;
@@ -33,7 +38,10 @@ img {
 
 /* MAIN */
 
+.about-me {
+    background-color: #1ABC9C;
+}
 
-/* RESPONSIVE */
-
-/* tablet */
+.custom-placeholder::placeholder {
+    color: #2C3E50;
+  }
