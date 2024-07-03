@@ -31,17 +31,6 @@
     font-size: 2rem;
 }
 
-/* HEADER */
-
-.header-top {
-    background-color: #2C3E50;
-    padding: 15px 0;
-}
-
-.header-bottom {
-    background-color: #1ABC9C;
-}
-
 .avatar {
     width: 250px;
     height: 250px;
@@ -53,6 +42,10 @@
 }
 
 /* COLORS */
+
+.my-bg-black {
+    background-color: #2C3E50;
+}
 
 .my-bg-cyan {
     background-color: #1ABC9C;
