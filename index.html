@@ -11,6 +11,9 @@
          <!-- Bootstrap ICONS -->
          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
          
+         <!-- Font Awsome ICONS -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
          <!-- CSS -->
          <link rel="stylesheet" href="css/style.css">
 
@@ -18,27 +21,25 @@
     <body>
         <!-- header -->
         <header>
-            <div class="header-top position-sticky top-0">
-                <nav class="navbar navbar-expand-md">
+            <div class="header-top">
+                <nav class="navbar navbar-expand-md" data-bs-theme="dark">
                     <div class="container">
-                        <div class="d-flex w-100 justify-content-between align-items-center">
-                            <strong><a class="navbar-brand text-white" href="#">START BOOTSTRAP</a></strong>
-                            <button class="navbar-toggler" type="button">
-                                <span class="navbar-toggler-icon text-white"></span>
+                        <strong><a class="navbar-brand" href="#">START BOOTSTRAP</a></strong>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav ms-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white fw-semibold" href="#">PORTFOLIO</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white fw-semibold" href="#">ABOUT</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white fw-semibold" href="#">CONTACT</a>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link fw-semibold text-white" href="#">PORTFOLIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-semibold text-white" href="#">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-semibold text-white" href="#">CONTACT</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </nav>
@@ -46,11 +47,11 @@
 
             <div class="header-bottom">
                 <div class="container">
-                    <div class="text-center py-3">
+                    <div class="text-center pt-5 pb-2">
                         <img src="img/avatar.svg" alt="avatar" class="avatar">
                     </div>
-                    <div class="header-description text-center pb-4">
-                        <h1 class="p-0 m-0">START BOOTSTRAP</h1>
+                    <div class="header-description text-center pb-5 text-white">
+                        <h1 class="p-0 m-0 fs-1">START BOOTSTRAP</h1>
                         <div class="custom-divider">
                             <div class="line"></div>
                             <div class="star-icon py-2"><i class="bi bi-star-fill"></i></div>
@@ -67,11 +68,11 @@
         <!-- main -->
         <main>
             
-            <section class="portfolio-cards">
+            <section class="portfolio-cards my-5">
                 <div class="container">
 
-                    <div class="title-section text-center my-5 text-dark">
-                        <h1>PORTFOLIO</h1>
+                    <div class="title-section text-center text-dark">
+                        <h2>PORTFOLIO</h2>
                         <div class="custom-divider">
                             <div class="line bg-dark"></div>
                             <div class="star-icon py-2"><i class="bi bi-star-fill"></i></div>
@@ -83,22 +84,22 @@
                         
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-4 mb-4">
-                                <img src="img/cabin.png" class="rounded" alt="cabin">
+                                <img src="img/cabin.png" class="rounded img-fluid" alt="cabin">
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-4">
-                                <img src="img/cake.png" class="rounded" alt="cake">
+                                <img src="img/cake.png" class="rounded img-fluid" alt="cake">
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-4">
-                                <img src="img/circus.png" class="rounded" alt="circus">
+                                <img src="img/circus.png" class="rounded img-fluid" alt="circus">
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-4">
-                                <img src="img/game.png" class="rounded" alt="game">
+                                <img src="img/game.png" class="rounded img-fluid" alt="game">
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-4">
-                                <img src="img/safe.png" class="rounded" alt="safe">
+                                <img src="img/safe.png" class="rounded img-fluid" alt="safe">
                             </div>
                             <div class="col-12 col-md-6 col-lg-4 mb-4">
-                                <img src="img/submarine.png" class="rounded" alt="submarine">
+                                <img src="img/submarine.png" class="rounded img-fluid" alt="submarine">
                             </div>
                         </div>
 
@@ -106,19 +107,19 @@
                 </div>
             </section>
 
-            <section class="about-me">
+            <section class="about-me my-5 my-bg-cyan">
                 <div class="container">
 
-                    <div class="title-section text-center p-5 text-dark">
-                        <h1 class="text-white">PORTFOLIO</h1>
+                    <div class="title-section text-center p-5 text-dark text-white">
+                        <h2>ABOUT</h2>
                         <div class="custom-divider">
                             <div class="line"></div>
-                            <div class="star-icon py-2 text-white"><i class="bi bi-star-fill"></i></div>
+                            <div class="star-icon py-2"><i class="bi bi-star-fill"></i></div>
                             <div class="line"></div>
                         </div>
                     </div>
 
-                    <div class="row ps-5 pe-5">
+                    <div class="row text-white px-5">
 
                         <div class="col-12 col-md-6">
                             <p class="fs-5">
@@ -139,7 +140,7 @@
                     </div>
                     <div class="row justify-content-center py-5">
                         <div class="col-auto">
-                            <button type="button" class="btn btn-outline-light">
+                            <button type="button" class="btn btn-outline-light fs-5 fw-semibold">
                                 <i class="bi bi-download"></i>
                                 Download
                             </button>
@@ -149,38 +150,36 @@
                 </div>
             </section>
 
-            <section class="contact-me">
+            <section class="contact-me my-5 px-5">
                 <div class="container">
                     <div class="title-section text-center my-5">
-                        <h1>CONTACT ME</h1>
+                        <h2>CONTACT ME</h2>
                     </div>
-                    <div class="justify-content-center w-100">
-                        <div class="col-12">
-                            <form>
+                        <div>
+                            <form class="px-3"> 
                                 <div class="mb-3">
-                                    <input type="text" class="form-control border-0 custom-placeholder fs-4" id="name" placeholder="Name">
+                                    <input type="text" class="form-control border-0 custom-placeholder fs-4" placeholder="Name" required>
                                     <div class="border-bottom"></div>
                                 </div>
 
                                 <div class="mb-3">
-                                    <input type="email" class="form-control border-0 custom-placeholder fs-4" id="name" placeholder="Email Address">
+                                    <input type="email" class="form-control border-0 custom-placeholder fs-4" placeholder="Email Address" required>
                                     <div class="border-bottom"></div>
                                 </div>
 
                                 <div class="mb-3">
-                                    <input type="text" class="form-control border-0 custom-placeholder fs-4" id="name" placeholder="Phone Number">
+                                    <input type="number" class="form-control border-0 custom-placeholder fs-4" placeholder="Phone Number" required>
                                     <div class="border-bottom"></div>
                                 </div>
 
                                 <div class="mb-3">
-                                    <textarea class="form-control border-0 custom-placeholder fs-4" id="message" rows="3" placeholder="Message"></textarea>
+                                    <textarea class="form-control border-0 custom-placeholder fs-4" rows="3" placeholder="Message" required></textarea>
                                     <div class="border-bottom"></div>
                                 </div>
-                                <input class="btn" type="submit" value="Submit">
+                                <button type="submit" class="btn btn-dark my-bg-cyan border-white px-3 py-2 fs-5">Send</button>
                             </form>
                         </div>
                     </div>
-                </div>
             </section>
 
         </main>
@@ -188,31 +187,44 @@
 
         <!-- footer -->
         <footer>
-            <section class="footer-top m-0 p-2">
+            <section class="footer-top m-0 py-5 my-bg-lightdark">
                 <div class="container">
                     <div class="row text-center text-white">
-                        <div class="col-4">
-                            <h3>LOCATION</h3>
-                            <p class="h4">2215 John Daniel Drive Clark, MO 54243</p>
+                        <div class="col-12 col-md-4">
+                            <h5>LOCATION</h5>
+                            <p class="h5">2215 John Daniel Drive Clark, MO 54243</p>
                         </div>
 
-                        <div class="col-4">
-                            <h3>LOCATION</h3>
-                            <p class="h4">2215 John Daniel Drive Clark, MO 54243</p>
+                        <div class="col-12 col-md-4 py-5 py-md-0">
+                            <h5>AROUND THE WEB</h5>
+                            <span class="social-icon border rounded-circle p-3 me-2">
+                                <a href="" class="text-white"><i class="fa fa-facebook-f"></i></a>
+                            </span>
+                            <span class="social-icon border rounded-circle p-2 me-2">
+                                <a href="" class="text-white"><i class="fa fa-linkedin"></i></a>
+                            </span>
+                            <span class="social-icon border rounded-circle p-2 me-2">
+                                <a href="" class="text-white"><i class="fa fa-twitter"></i></a>
+                            </span>
+                            <span class="social-icon border rounded-circle p-2 me-2">
+                                <a href="" class="text-white"><i class="fa fa-linkedin"></i></a>
+                            </span>
                         </div>
 
-                        <div class="col-4">
-                            <h3>LOCATION</h3>
-                            <p class="h4">2215 John Daniel Drive Clark, MO 54243</p>
+                        <div class="col-12 col-md-4">
+                            <h5>ABOUT FREELANCER</h5>
+                            <p class="h5">Freelance is a free to use, open source
+                                Bootstrap theme created by <a href="" class="text-decoration-none my-color-cyan">Start Bootstrap</a>.
+                            </p>
                         </div>
 
                     </div>
                 </div>
             </section>
 
-            <section class="footer-bottom m-0 p-2">
-                <div class="container text-center">
-                    <p class="h-100 p-3">Copyright © Your Website 2019</p>
+            <section class="footer-bottom py-5 my-0 my-bg-dark">
+                <div class="container text-center text-white">
+                    <p>Copyright © Your Website 2019</p>
                 </div>
             </section>
         </footer>
